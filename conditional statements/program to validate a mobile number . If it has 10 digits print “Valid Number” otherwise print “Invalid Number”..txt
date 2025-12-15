@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	String number=sc.nextLine();
+	if(number.length()==10){
+	    System.out.println("valid number");
+	}
+	else{
+	    System.out.println("invalid number");
+	}
+	
+	}
+}
